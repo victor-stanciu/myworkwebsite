@@ -1,0 +1,63 @@
+<style>
+    .carousel-text    {
+        color: rgb(211, 196, 161);
+        margin-top: 15px;
+    }
+    #carouselExampleCaptions {
+      max-width: 700px;
+      height:450px;
+      margin: auto;
+    }
+    #carouselExampleCaptions .carousel-item img {
+      height: 100%;
+      width: auto;
+      object-fit:contain;
+      margin: auto;
+      display: block;
+    }
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 16 16'%3E%3Cpath d='M11 1L3 8l8 7'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 16 16'%3E%3Cpath d='M5 1l8 7-8 7'/%3E%3C/svg%3E");
+}
+
+</style>
+
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active text-center">
+      <img src="static/helpdesk/AD/one.png" class="d-block w-100" alt="Organizational Unit setup">
+      <div class="carousel-text">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item text-center">
+      <img src="static/helpdesk/AD/three(admin&user).png" class="d-block w-100" alt="">
+      <div class="carousel-text">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item text-center">
+      <img src="static/helpdesk/AD/four(logonHours).png" class="d-block w-100" alt="">
+      <div class="carousel-text">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
